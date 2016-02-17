@@ -1,0 +1,13 @@
+[package]
+name = "md"
+version = "0.1.0"
+authors = ["brobostigon <tommyloehr@gmail.com>"]
+
+[[bin]]
+name = "tinymd"
+
+[dependencies]
+stopwatch = "0.0.6"
+
+[dependencies.linalg]
+path = "src/linalg"
